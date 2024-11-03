@@ -1,0 +1,87 @@
+.card, .greeting, .random, .box{
+    border: solid 1px black;
+    display: flex;
+    margin-top: 10px;
+}
+
+.info-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit-card{
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+    h1{
+        letter-spacing: 4px;
+        padding: 5px;
+        margin: 10px 0;
+    }
+
+    p{
+        margin: 0;
+    }
+}
+
+.card-type{
+    align-self: flex-end;
+    width: 50px;
+}
+
+.line-3{
+    display: flex;
+    justify-items: flex-start;
+}
+
+.exp-dtls{
+    padding-right: 20px;
+}
+
+.star { 
+    font-size: 50px;
+    color: gray;
+}
+
+.filled {
+    color: black;
+}
+
+.driver-card{
+    color: white;
+    background-color: #455eb5;
+    width: 40vw;
+    height: 15vh;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2, h3{
+        margin: 0;
+    }
+}
+
+.driver-picture{
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    margin-right: 10px;
+}
